@@ -6,7 +6,7 @@ entries:
     name: monasca
     version: 1.0.0
     sources:
-    - https://github.com/monasca/monasca-helm/monasca
+    - https://github.com/monasca/monasca-helm/tree/master/monasca
     
   influxdb:
   - apiVersion: v1
