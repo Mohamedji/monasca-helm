@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  monasca:
+  - apiVersion: v1
+    description: Monasca core
+    name: monasca
+    sources:
+    - https://github.com/monasca/monasca-helm/monasca
+    
+  influxdb:
+  - apiVersion: v1
+    description: Monasca's influxdb
+    name: influxdb
+    sources:
+    - https://github.com/monasca/monasca-helm/influxdb
